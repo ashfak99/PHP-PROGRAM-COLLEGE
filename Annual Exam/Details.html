@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" url="www.ashfakalam.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body>
+    <form action="details.php" method="post">
+    <label for="name">Enter name : </label>
+    <input type="text" name="uname" placeholder="Enter Your Name"><br>
+
+    <label for="Address">Enter Address : </label>
+    <textarea name="Address" placeholder="Enter Your Address"></textarea><br>
+
+    <label for="City">Select Your City</label>
+    <select name="city">
+        <option value="Default">Default</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Patna">Patna</option>
+        <option value="Gopalganj">Gopalganj</option>
+    </select>
+<br>
+    <label for="gender">Select Your Gender : </label>
+    <input type="radio" name="Gender" value="Male"> Male 
+    <input type="radio" name="Gender" value="Female"> Female
+    <br>
+
+    <label for="Lang">Select Language You Known : </label>
+    <input type="checkbox" name="lang[]" value="Hindi">Hindi
+    <input type="checkbox" name="lang[]" value="English">English
+    <br>
+    <button type="submit" name="submit">SUBMIT</button>
+    </form>
+</body>
+</html>

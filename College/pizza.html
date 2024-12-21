@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA | Ashfak</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        input{
+            margin: 10px 0px;
+        }
+        button{
+            margin-top: 20px;
+            font-size: large;
+            background-color: rgb(36, 99, 234);
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgb(36, 99, 234);
+        }
+    </style>
+</head>
+<body>
+    <form action="pizza.php" method="POST">
+       <h1 class="header">PIZZA LISTS:<br></h1>
+        <input type="checkbox" name="pizzu[]" value="Onion Pizza">Onion Pizza <br>
+        <input type="checkbox" name="pizzu[]" value="Corn Pizza">Corn Pizza <br>
+        <input type="checkbox" name="pizzu[]" value="Barbique Pizza">Barbique Pizza <br>
+        <input type="checkbox" name="pizzu[]" value="Paneer Pizza">Paneer Pizza <br>
+        <input type="checkbox" name="pizzu[]" value="Chicken Pizza">Chicken Pizza <br>
+        <input type="checkbox" name="pizzu[]" value="Sicilian pizza">Sicilian pizza <br>
+        <input type="checkbox" name="pizzu[]" value="Chicago pizza">Chicago pizza <br>
+        <input type="checkbox" name="pizzu[]" value="Cheese pizza">Cheese pizza <br>
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
